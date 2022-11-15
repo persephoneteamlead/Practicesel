@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="12" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-10T16:07:18 IST" name="Suite" finished-at="2022-11-10T16:08:38 IST" duration-ms="80488">
+    <groups>
+      <group name="regression">
+        <method signature="CreateCampaignwithso.createcampaignwithproduct()[pri:0, instance:Campaign.CreateCampaignwithso@729d991e]" name="createcampaignwithproduct" class="Campaign.CreateCampaignwithso"/>
+        <method signature="CreateOrg.cresteorg()[pri:0, instance:Contact.CreateOrg@60bd273d]" name="cresteorg" class="Contact.CreateOrg"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="PurchaseOrderwithVendor.createpurchaseorder()[pri:0, instance:PurchaseOrder.PurchaseOrderwithVendor@17497425]" name="createpurchaseorder" class="PurchaseOrder.PurchaseOrderwithVendor"/>
+        <method signature="CreateCampaign.campaign()[pri:0, instance:Campaign.CreateCampaign@4f80542f]" name="campaign" class="Campaign.CreateCampaign"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-11-10T16:07:18 IST" name="TestRunner-Firefox" finished-at="2022-11-10T16:08:34 IST" duration-ms="76498">
+      <class name="Campaign.CreateCampaign">
+        <test-method is-config="true" signature="bs()[pri:0, instance:Campaign.CreateCampaign@4f80542f]" started-at="2022-11-10T16:07:18 IST" name="bs" finished-at="2022-11-10T16:07:18 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:Campaign.CreateCampaign@4f80542f]" started-at="2022-11-10T16:07:18 IST" name="bt" finished-at="2022-11-10T16:07:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:Campaign.CreateCampaign@4f80542f]" started-at="2022-11-10T16:07:18 IST" name="bc" finished-at="2022-11-10T16:07:24 IST" duration-ms="6585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Campaign.CreateCampaign@4f80542f]" started-at="2022-11-10T16:07:24 IST" name="bm" finished-at="2022-11-10T16:07:29 IST" duration-ms="4725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="campaign()[pri:0, instance:Campaign.CreateCampaign@4f80542f]" started-at="2022-11-10T16:07:29 IST" name="campaign" finished-at="2022-11-10T16:07:44 IST" duration-ms="15101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- campaign -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Campaign.CreateCampaign@4f80542f]" started-at="2022-11-10T16:07:44 IST" name="am" finished-at="2022-11-10T16:07:46 IST" duration-ms="2232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Campaign.CreateCampaign@4f80542f]" started-at="2022-11-10T16:07:46 IST" name="ac" finished-at="2022-11-10T16:07:51 IST" duration-ms="4951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Campaign.CreateCampaign@4f80542f]" started-at="2022-11-10T16:08:34 IST" name="at" finished-at="2022-11-10T16:08:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="as()[pri:0, instance:Campaign.CreateCampaign@4f80542f]" started-at="2022-11-10T16:08:38 IST" name="as" finished-at="2022-11-10T16:08:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- Campaign.CreateCampaign -->
+      <class name="Contact.CreateOrg">
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:Contact.CreateOrg@60bd273d]" started-at="2022-11-10T16:07:51 IST" name="bc" finished-at="2022-11-10T16:07:58 IST" duration-ms="6950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Contact.CreateOrg@60bd273d]" started-at="2022-11-10T16:07:58 IST" name="bm" finished-at="2022-11-10T16:08:02 IST" duration-ms="3846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="cresteorg()[pri:0, instance:Contact.CreateOrg@60bd273d]" started-at="2022-11-10T16:08:02 IST" name="cresteorg" finished-at="2022-11-10T16:08:29 IST" duration-ms="26681" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@name='accountname']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13248, moz:profile: C:\Users\Manasa\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fae3e428-c0b2-47f3-b7bb-11bb5acc13fe
+*** Element info: {Using=xpath, value=//input[@name='accountname']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name='accountname']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13248, moz:profile: C:\Users\Manasa\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fae3e428-c0b2-47f3-b7bb-11bb5acc13fe
+*** Element info: {Using=xpath, value=//input[@name='accountname']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+at Contact.CreateOrg.cresteorg(CreateOrg.java:131)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cresteorg -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Contact.CreateOrg@60bd273d]" started-at="2022-11-10T16:08:29 IST" name="am" finished-at="2022-11-10T16:08:31 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Contact.CreateOrg@60bd273d]" started-at="2022-11-10T16:08:31 IST" name="ac" finished-at="2022-11-10T16:08:34 IST" duration-ms="3356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- Contact.CreateOrg -->
+    </test> <!-- TestRunner-Firefox -->
+    <test started-at="2022-11-10T16:07:18 IST" name="TestRunner-Chrome" finished-at="2022-11-10T16:08:38 IST" duration-ms="80488">
+      <class name="Campaign.CreateCampaignwithso">
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:Campaign.CreateCampaignwithso@729d991e]" started-at="2022-11-10T16:08:14 IST" name="bc" finished-at="2022-11-10T16:08:16 IST" duration-ms="1979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Campaign.CreateCampaignwithso@729d991e]" started-at="2022-11-10T16:08:16 IST" name="bm" finished-at="2022-11-10T16:08:19 IST" duration-ms="2823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="createcampaignwithproduct()[pri:0, instance:Campaign.CreateCampaignwithso@729d991e]" started-at="2022-11-10T16:08:19 IST" name="createcampaignwithproduct" finished-at="2022-11-10T16:08:36 IST" duration-ms="17514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcampaignwithproduct -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Campaign.CreateCampaignwithso@729d991e]" started-at="2022-11-10T16:08:36 IST" name="am" finished-at="2022-11-10T16:08:38 IST" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Campaign.CreateCampaignwithso@729d991e]" started-at="2022-11-10T16:08:38 IST" name="ac" finished-at="2022-11-10T16:08:38 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- Campaign.CreateCampaignwithso -->
+      <class name="PurchaseOrder.PurchaseOrderwithVendor">
+        <test-method is-config="true" signature="bt()[pri:0, instance:PurchaseOrder.PurchaseOrderwithVendor@17497425]" started-at="2022-11-10T16:07:18 IST" name="bt" finished-at="2022-11-10T16:07:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="bc(java.lang.String)[pri:0, instance:PurchaseOrder.PurchaseOrderwithVendor@17497425]" started-at="2022-11-10T16:07:18 IST" name="bc" finished-at="2022-11-10T16:07:27 IST" duration-ms="9465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:PurchaseOrder.PurchaseOrderwithVendor@17497425]" started-at="2022-11-10T16:07:27 IST" name="bm" finished-at="2022-11-10T16:07:32 IST" duration-ms="5045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="createpurchaseorder()[pri:0, instance:PurchaseOrder.PurchaseOrderwithVendor@17497425]" started-at="2022-11-10T16:07:32 IST" name="createpurchaseorder" finished-at="2022-11-10T16:08:12 IST" duration-ms="39860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpurchaseorder -->
+        <test-method is-config="true" signature="am()[pri:0, instance:PurchaseOrder.PurchaseOrderwithVendor@17497425]" started-at="2022-11-10T16:08:12 IST" name="am" finished-at="2022-11-10T16:08:14 IST" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:PurchaseOrder.PurchaseOrderwithVendor@17497425]" started-at="2022-11-10T16:08:14 IST" name="ac" finished-at="2022-11-10T16:08:14 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:PurchaseOrder.PurchaseOrderwithVendor@17497425]" started-at="2022-11-10T16:08:38 IST" name="at" finished-at="2022-11-10T16:08:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+      </class> <!-- PurchaseOrder.PurchaseOrderwithVendor -->
+    </test> <!-- TestRunner-Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
